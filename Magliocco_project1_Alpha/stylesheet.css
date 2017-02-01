@@ -1,0 +1,1293 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body {
+    background-color: black;
+}
+
+
+.title-text {height: 38px;
+             width: 100%;
+             margin-left: 1%;
+             background-color: black;
+             position: fixed;
+             font-family: 'Roboto Condensed';
+             color: white;
+             font-size: 1.3em;
+             letter-spacing: .4em;
+             text-align: left;
+             padding-top: 10px;
+             border-bottom: .1em;
+             border-bottom-color: white;
+             border-bottom-style: dotted;
+             z-index: 10;
+             
+            }
+
+.swatch {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.swatchCondensed {
+    width: 90px;
+    height: 150px;
+    float: left;
+}
+
+.swatchCondensed-2 {
+    width: 78px;
+    height: 150px;
+    float: left;
+}
+
+.swatchCondensed-3 {
+    width: 126px;
+    height: 150px;
+    float: left;
+}
+
+.swatchCondensed-4 {
+    width: 96px;
+    height: 150px;
+    float: left;
+}
+
+.swatchCondensed-5 {
+    width: 138px;
+    height: 150px;
+    float: left;
+}
+
+.swatchCondensed-6 {
+    width: 114px;
+    height: 150px;
+    float: left;
+}
+
+.swatchCondensed-7 {
+    width: 87px;
+    height: 150px;
+    float: left;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    padding-right: 1%;
+    position: fixed;
+    overflow: scroll;
+}
+
+#swatch-1 {
+    background-color: #8f8882;
+}
+
+#swatch-2 {
+    background-color: #b4b3b1;
+}
+
+#swatch-3 {
+    background-color: #e0e0e0;
+}
+
+#swatch-4 {
+    background-color: #171516;
+}
+
+#swatch-5 {
+    background-color: #29211e;
+}
+
+#swatch-6 {
+    background-color: #5f553a;
+}
+
+#swatch-7 {
+    background-color: #948448;
+}
+
+#swatch-8 {
+    background-color: #b4aa63;
+}
+
+#swatch-9 {
+    background-color: #5d5854;
+}
+
+#swatch-10 {
+    background-color: #736d6f;
+}
+
+#swatch-11 {
+    background-color: #979694;
+}
+
+#swatch-12 {
+    background-color: #a3a3a1;
+}
+
+#swatch-13 {
+    background-color: #dbdbdb;
+}
+
+#swatch-14 {
+    background-color: #231c16;
+}
+
+#swatch-15 {
+    background-color: #4a382e;
+}
+
+#swatch-16 {
+    background-color: #775643;
+}
+
+#swatch-17 {
+    background-color: #99745a;
+}
+
+#swatch-18 {
+    background-color: #cc9b7a;
+}
+
+#swatch-19 {
+    background-color: #fcd3bd;
+}
+
+#swatch-20 {
+    background-color: #cac9c4;
+}
+
+#swatch-21 {
+    background-color: #2a2424;
+}
+
+#swatch-22 {
+    background-color: #45403c;
+}
+
+#swatch-23 {
+    background-color: #bebcbd;
+}
+
+#swatch-24 {
+    background-color: #632308;
+}
+
+#swatch-25 {
+    background-color: #934312;
+}
+
+#swatch-26 {
+    background-color: #d4923b;
+}
+
+#swatch-27 {
+    background-color: #debc75;
+}
+
+#swatch-28 {
+    background-color: #0f1110;
+}
+
+#swatch-29 {
+    background-color: #1c2721;
+}
+
+#swatch-30 {
+    background-color: #334b3d;
+}
+
+#swatch-31 {
+    background-color: #41624f;
+}
+
+#swatch-32 {
+    background-color: #558d74;
+}
+
+#swatch-33 {
+    background-color: #97b2a9;
+}
+
+#swatch-34 {
+    background-color: #140e0e;
+}
+
+#swatch-35 {
+    background-color: #3d1d1e;
+}
+
+#swatch-36 {
+    background-color: #853b32;
+}
+
+#swatch-37 {
+    background-color: #ca454a;
+}
+
+#swatch-38 {
+    background-color: #f574d0;
+}
+
+#swatch-39 {
+    background-color: #db695f;
+}
+
+#swatch-40 {
+    background-color: #fc833e;
+}
+
+#swatch-41 {
+    background-color: #ffb84e;
+}
+
+#swatch-42 {
+    background-color: #8f9964;
+}
+
+#swatch-43 {
+    background-color: #5770b2;
+}
+
+#swatch-44 {
+    background-color: #55566b;
+}
+
+#swatch-45 {
+    background-color: #5c6c8e;
+}
+
+#swatch-46 {
+    background-color: #749ab1;
+}
+
+#swatch-47 {
+    background-color: #99c6d9;
+}
+
+#swatch-48 {
+    background-color: #b1afb0;
+}
+
+#swatch-49 {
+    background-color: #1e0a09;
+}
+
+#swatch-50 {
+    background-color: #3b130b;
+}
+
+#swatch-51 {
+    background-color: #651f13;
+}
+
+#swatch-52 {
+    background-color: #6c2e17;
+}
+
+#swatch-53 {
+    background-color: #b4320e;
+}
+
+#swatch-54 {
+    background-color: #06070c;
+}
+
+#swatch-55 {
+    background-color: #272727;
+}
+
+#swatch-56 {
+    background-color: #3f3f3f;
+}
+
+#swatch-57 {
+    background-color: #575145;
+}
+
+#swatch-58 {
+    background-color: #796e5a;
+}
+
+#swatch-59 {
+    background-color: #c3b399;
+}
+
+#swatch-60 {
+    background-color: #1a273a;
+}
+
+#swatch-61 {
+    background-color: #253954;
+}
+
+#swatch-62 {
+    background-color: #40567d;
+}
+
+#swatch-63 {
+    background-color: #49649b;
+}
+
+#swatch-64 {
+    background-color: #81beda;
+}
+
+#swatch-65 {
+    background-color: #32b5af;
+}
+
+#swatch-66 {
+    background-color: #5d2250;
+}
+
+#swatch-67 {
+    background-color: #9580cb;
+}
+
+#swatch-68 {
+    background-color: #c9bbec;
+}
+
+#swatch-69 {
+    background-color: #c5426a;
+}
+
+#swatch-70 {
+    background-color: #0e0c0d;
+}
+
+#swatch-71 {
+    background-color: #2a221f;
+}
+
+#swatch-72 {
+    background-color: #33322e;
+}
+
+#swatch-73 {
+    background-color: #8d806d;
+}
+
+#swatch-74 {
+    background-color: #a69f85;
+}
+
+#swatch-75 {
+    background-color: #8a8572;
+}
+
+#swatch-76 {
+    background-color: #d9d6c7;
+}
+
+#swatch-77 {
+    background-color: #faf4f6;
+}
+
+#swatch-78 {
+    background-color: #0c0c0c;
+}
+
+#swatch-79 {
+    background-color: #1a1116;
+}
+
+#swatch-80 {
+    background-color: #332932;
+}
+
+#swatch-81 {
+    background-color: #3f2f3a;
+}
+
+#swatch-82 {
+    background-color: #584853;
+}
+
+#swatch-83 {
+    background-color: #725f73;
+}
+
+#swatch-84 {
+    background-color: #857582;
+}
+
+#swatch-85 {
+    background-color: #9e8d9f;
+}
+
+#swatch-86 {
+    background-color: #baaab5;
+}
+
+#swatch-87 {
+    background-color: #bcbabb;
+}
+
+#swatch-88 {
+    background-color: #242424;
+}
+
+#swatch-89 {
+    background-color: #424244;
+}
+
+#swatch-90 {
+    background-color: #515056;
+}
+
+#swatch-91 {
+    background-color: #676566;
+}
+
+#swatch-92 {
+    background-color: #b6b6b4;
+}
+
+#swatch-93 {
+    background-color: #d4d5da;
+}
+
+#swatch-94 {
+    background-color: #313e4f;
+}
+
+#swatch-95 {
+    background-color: #505d6d;
+}
+
+#swatch-96 {
+    background-color: #73849e;
+}
+
+#swatch-97 {
+    background-color: #785c2c;
+}
+
+#swatch-98 {
+    background-color: #a17c45;
+}
+
+#swatch-99 {
+    background-color: #b7904b;
+}
+
+#swatch-100 {
+    background-color: #b59c73;
+}
+
+#swatch-101 {
+    background-color: #050304;
+}
+
+#swatch-102 {
+    background-color: #3d3d3d;
+}
+
+#swatch-103 {
+    background-color: #cfcfcf;
+}
+
+#swatch-104 {
+    background-color: #35271c;
+}
+
+#swatch-105 {
+    background-color: #6d3d17;
+}
+
+#swatch-106 {
+    background-color: #944e1a;
+}
+
+#swatch-107 {
+    background-color: #a3652c;
+}
+
+#swatch-108 {
+    background-color: #b6712c;
+}
+
+#swatch-109 {
+    background-color: #b88943;
+}
+
+#swatch-110 {
+    background-color: #030303;
+}
+
+#swatch-111 {
+    background-color: #121b18;
+}
+
+#swatch-112 {
+    background-color: #1f4538;
+}
+
+#swatch-113 {
+    background-color: #416750;
+}
+
+#swatch-114 {
+    background-color: #52b189;
+}
+
+#swatch-115 {
+    background-color: #8cdbbb;
+}
+
+#swatch-116 {
+    background-color: #baf2d9;
+}
+
+#swatch-117 {
+    background-color: #201710;
+}
+
+#swatch-118 {
+    background-color: #4e2c22;
+}
+
+#swatch-119 {
+    background-color: #80442a;
+}
+
+#swatch-120 {
+    background-color: #a64222;
+}
+
+#swatch-121 {
+    background-color: #da7d52;
+}
+
+#swatch-122 {
+    background-color: #ffbfa3;
+}
+
+#swatch-123 {
+    background-color: #0a0a0a;
+}
+
+#swatch-124 {
+    background-color: #252525;
+}
+
+#swatch-125 {
+    background-color: #474747;
+}
+
+#swatch-126 {
+    background-color: #898989;
+}
+
+#swatch-127 {
+    background-color: #c1c1c3;
+}
+
+#swatch-128 {
+    background-color: #746b5a;
+}
+
+#swatch-129 {
+    background-color: #857963;
+}
+
+#swatch-130 {
+    background-color: #9e9681;
+}
+
+#swatch-131 {
+    background-color: #c2bfb0;
+}
+
+#swatch-132 {
+    background-color: #292826;
+}
+
+#swatch-133 {
+    background-color: #505052;
+}
+
+#swatch-134 {
+    background-color: #77777f;
+}
+
+#swatch-135 {
+    background-color: #b27036;
+}
+
+#swatch-136 {
+    background-color: #bd9d84;
+}
+
+#swatch-137 {
+    background-color: #c1b5a5;
+}
+
+#swatch-138 {
+    background-color: #363c48;
+}
+
+#swatch-139 {
+    background-color: #4f6271;
+}
+
+#swatch-140 {
+    background-color: #677f9b;
+}
+
+#swatch-141 {
+    background-color: #8fa1b9;
+}
+
+#swatch-142 {
+    background-color: #acb8c8;
+}
+
+#swatch-143 {
+    background-color: #171614;
+}
+
+#swatch-144 {
+    background-color: #2d1910;
+}
+
+#swatch-145 {
+    background-color: #2d1910;
+}
+
+#swatch-146 {
+    background-color: #583718;
+}
+
+#swatch-147 {
+    background-color: #1c1c1c;
+}
+
+#swatch-148 {
+    background-color: #292f2f;
+}
+
+#swatch-149 {
+    background-color: #404e57;
+}
+
+#swatch-150 {
+    background-color: #678190;
+}
+
+#swatch-151 {
+    background-color: #514f38;
+}
+
+#swatch-152 {
+    background-color: #545d4c;
+}
+
+#swatch-153 {
+    background-color: #6e796b;
+}
+
+#swatch-154 {
+    background-color: #8d9691;
+}
+
+#swatch-155 {
+    background-color: #97a1a0;
+}
+
+#swatch-156 {
+    background-color: #a7acb0;
+}
+
+#swatch-157 {
+    background-color: #1c1c1c;
+}
+
+#swatch-158 {
+    background-color: #282826;
+}
+
+#swatch-159 {
+    background-color: #464644;
+}
+
+#swatch-160 {
+    background-color: #888983;
+}
+
+#swatch-161 {
+    background-color: #aeaea4;
+}
+
+#swatch-162 {
+    background-color: #5a3b26;
+}
+
+#swatch-163 {
+    background-color: #9a5a2a;
+}
+
+#swatch-164 {
+    background-color: #c37c3e;
+}
+
+#swatch-165 {
+    background-color: #dea86c;
+}
+
+#swatch-172 {
+    background-color: #12090a;
+}
+
+#swatch-173 {
+    background-color: #511108;
+}
+
+#swatch-174 {
+    background-color: #6e1b0b;
+}
+
+#swatch-175 {
+    background-color: #842914;
+}
+
+#swatch-176 {
+    background-color: #a63f20;
+}
+
+#swatch-177 {
+    background-color: #ca6249;
+}
+
+#swatch-178 {
+    background-color: #0e0e0e;
+}
+
+#swatch-179 {
+    background-color: #262827;
+}
+
+#swatch-180 {
+    background-color: #3e3f41;
+}
+
+#swatch-181 {
+    background-color: #2b352c;
+}
+
+#swatch-182 {
+    background-color: #354133;
+}
+
+#swatch-183 {
+    background-color: #4a564c;
+}
+
+#swatch-184 {
+    background-color: #020202;
+}
+
+#swatch-185 {
+    background-color: #3b3c41;
+}
+
+#swatch-186 {
+    background-color: #161d2f;
+}
+
+#swatch-187 {
+    background-color: #1f253b;
+}
+
+#swatch-188 {
+    background-color: #2f3e5b;
+}
+
+#swatch-189 {
+    background-color: #546593;
+}
+
+#swatch-190 {
+    background-color: #7f9fd8;
+}
+
+#swatch-191 {
+    background-color: #a6bde9;
+}
+
+#swatch-192 {
+    background-color: #070707;
+}
+
+#swatch-193 {
+    background-color: #1b1b1b;
+}
+
+#swatch-194 {
+    background-color: #4e4e4e;
+}
+
+#swatch-195 {
+    background-color: #80612b;
+}
+
+#swatch-196 {
+    background-color: #a08141;
+}
+
+#swatch-197 {
+    background-color: #a99147;
+}
+
+#swatch-198 {
+    background-color: #202413;
+}
+
+#swatch-199 {
+    background-color: #404815;
+}
+
+#swatch-200 {
+    background-color: #110e15;
+}
+
+#swatch-201 {
+    background-color: #474644;
+}
+
+#swatch-202 {
+    background-color: #adaeb0;
+}
+
+#swatch-203 {
+    background-color: #2c252c;
+}
+
+#swatch-204 {
+    background-color: #423747;
+}
+
+#swatch-205 {
+    background-color: #50415e;
+}
+
+#swatch-206 {
+    background-color: #61476e;
+}
+
+#swatch-207 {
+    background-color: #7e6481;
+}
+
+#swatch-208 {
+    background-color: #9889aa;
+}
+
+#swatch-209 {
+    background-color: #af99bd;
+}
+
+#swatch-210 {
+    background-color: #b5aabb;
+}
+
+.swatchContainer-1 {
+    width: 450px;
+    height: 150px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.ObjectInfo {
+    width: 450px;
+    height: 123px;
+    position: absolute;
+    background: black;
+    opacity: .0;
+    font-family: "Roboto Condensed";
+    text-align: center;
+    font-size: 30pt;
+    padding-top: 27px;
+    color: white;
+}
+
+.ObjectInfo:hover {
+    opacity: .7;
+}
+
+.swatchContainer-2 {
+    width: 750px;
+    height: 150px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.ObjectInfo-2 {
+    width: 750px;
+    height: 123px;
+    position: absolute;
+    background: black;
+    opacity: .0;
+    font-family: "Roboto Condensed";
+    text-align: center;
+    font-size: 30pt;
+    padding-top: 27px;
+    color: white;
+}
+
+.ObjectInfo-2:hover {
+    opacity: .7;
+}
+
+.swatchContainer-3 {
+    width: 750px;
+    height: 150px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.swatchContainer-4 {
+    width: 1050px;
+    height: 150px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.ObjectInfo-3 {
+    width: 1050px;
+    height: 123px;
+    position: absolute;
+    background: black;
+    opacity: .0;
+    font-family: "Roboto Condensed";
+    text-align: center;
+    font-size: 30pt;
+    padding-top: 27px;
+    color: white;
+}
+
+.ObjectInfo-3:hover {
+    opacity: .7;
+}
+
+.swatchContainer-5 {
+    width: 1050px;
+    height: 150px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.swatchContainer-6 {
+    width: 900px;
+    height: 150px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.ObjectInfo-4 {
+    width: 900px;
+    height: 123px;
+    position: absolute;
+    background: black;
+    opacity: .0;
+    font-family: "Roboto Condensed";
+    text-align: center;
+    font-size: 30pt;
+    padding-top: 27px;
+    color: white;
+}
+
+.ObjectInfo-4:hover {
+    opacity: .7;
+}
+
+.swatchContainer-7 {
+    width: 1260px;
+    height: 150px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.ObjectInfo-5 {
+    width: 1260px;
+    height: 123px;
+    position: absolute;
+    background: black;
+    opacity: .0;
+    font-family: "Roboto Condensed";
+    text-align: center;
+    font-size: 30pt;
+    padding-top: 27px;
+    color: white;
+}
+
+.ObjectInfo-5:hover {
+    opacity: .7;
+}
+
+.swatchContainer-8 {
+    width: 900px;
+    height: 150px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.swatchContainer-9 {
+    width: 1248px;
+    height: 150px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.ObjectInfo-6 {
+    width: 1248px;
+    height: 41px;
+    position: absolute;
+    background: black;
+    opacity: .0;
+    font-family: "Roboto Condensed";
+    text-align: center;
+    font-size: 10pt;
+    padding-top: 9px;
+    color: white;
+}
+
+.ObjectInfo-6:hover {
+    opacity: .7;
+}
+
+.swatchContainer-10 {
+    width: 1200px;
+    height: 150px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.ObjectInfo-7 {
+    width: 1200px;
+    height: 123px;
+    position: absolute;
+    background: black;
+    opacity: .0;
+    font-family: "Roboto Condensed";
+    text-align: center;
+    font-size: 30pt;
+    padding-top: 27px;
+    color: white;
+}
+
+.ObjectInfo-7:hover {
+    opacity: .7;
+}
+
+.swatchContainer-11 {
+    width: 1260px;
+    height: 150px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.ObjectInfo-8 {
+    width: 1260px;
+    height: 123px;
+    position: absolute;
+    background: black;
+    opacity: .0;
+    font-family: "Roboto Condensed";
+    text-align: center;
+    font-size: 30pt;
+    padding-top: 27px;
+    color: white;
+}
+
+.ObjectInfo-8:hover {
+    opacity: .7;
+}
+
+.swatchContainer-12 {
+    width: 1248px;
+    height: 150px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.ObjectInfo-6 {
+    width: 1248px;
+    height: 123px;
+    position: absolute;
+    background: black;
+    opacity: .0;
+    font-family: "Roboto Condensed";
+    text-align: center;
+    font-size: 30pt;
+    padding-top: 27px;
+    color: white;
+}
+
+.ObjectInfo-6:hover {
+    opacity: .7;
+}
+
+.swatchContainer-13 {
+    width: 1242px;
+    height: 150px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.ObjectInfo-9 {
+    width: 1242px;
+    height: 123px;
+    position: absolute;
+    background: black;
+    opacity: .0;
+    font-family: "Roboto Condensed";
+    text-align: center;
+    font-size: 30pt;
+    padding-top: 27px;
+    color: white;
+}
+
+.ObjectInfo-9:hover {
+    opacity: .7;
+}
+
+.swatchContainer-14 {
+    width: 1050px;
+    height: 150px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.swatchContainer-15 {
+    width: 900px;
+    height: 150px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.swatchContainer-16 {
+    width: 1242px;
+    height: 150px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.swatchContainer-17 {
+    width: 1254px;
+    height: 150px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.ObjectInfo-10 {
+    width: 1254px;
+    height: 123px;
+    position: absolute;
+    background: black;
+    opacity: .0;
+    font-family: "Roboto Condensed";
+    text-align: center;
+    font-size: 30pt;
+    padding-top: 27px;
+    color: white;
+}
+
+.ObjectInfo-10:hover {
+    opacity: .7;
+}
+
+.swatchContainer-18 {
+    width: 1219px;
+    height: 150px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.ObjectInfo-11 {
+    width: 1218px;
+    height: 123px;
+    position: absolute;
+    background: black;
+    opacity: .0;
+    font-family: "Roboto Condensed";
+    text-align: center;
+    font-size: 30pt;
+    padding-top: 27px;
+    color: white;
+}
+
+.ObjectInfo-11:hover {
+    opacity: .7;
+}
+
+.swatchContainer-20 {
+    width: 1242px;
+    height: 150px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.swatchContainer-21 {
+    width: 900px;
+    height: 150px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.swatchContainer-22 {
+    width: 900px;
+    height: 150px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.swatchContainer-23 {
+    width: 1200px;
+    height: 150px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.swatchContainer-24 {
+    width: 1200px;
+    height: 150px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.swatchContainer-25 {
+    width: 1254px;
+    height: 150px;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
