@@ -1,0 +1,186 @@
+#container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#yellow-circle {
+  position: absolute;
+  width: 29%;
+  height: 50%;
+  top: 25%;
+  left: 35%;
+  border-radius: 100%;
+  background: yellow;
+                
+                }
+
+#blue-rect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  background: blue;
+}
+
+#white-stripe {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  background: white;
+  z-index: 2;
+}
+
+.white {top: 50%;}
+.white-2 {top: 70%;}
+
+#red-rect {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  background: red;
+  z-index: 2;
+}
+
+#red-rect-big {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 15%;
+  background: red;
+}
+
+.red {top: 60%;}
+.red-2 {top: 80%;}
+
+img {z-index: 3;
+     position: absolute;
+     top: 20%;
+     left: 5%;
+     width: 13.5%;
+     height: 45%;}
+
+#red-rect-hidden {position: absolute;
+                  left: 0;
+                  bottom: 0;
+                  width: 100%;
+                  height: 10%;
+                  background: red;
+                  opacity: 0;}
+
+/*----------------------------------------*/
+
+@media screen and (max-width: 1000px) {
+    
+  #container {
+  position: absolute;
+  top: -50%;
+  left 0;
+  bottom: 0;
+  width: 100%;
+  height: 150%;
+  background: black; }
+    
+  #blue-rect {
+  position: absolute;
+  background: cyan;
+  z-index: -10;
+}
+    
+#white-stripe { position: absolute;
+            background: red;
+            left: 50%;
+            width: 50%;
+            height: 13%;
+          }
+    
+    
+    #red-rect {position: absolute;
+               background: yellow;
+               left: 50%;
+               width: 50%;
+               height: 13%;}
+    
+    #red-rect-hidden {position: absolute;
+                  left: 50%;
+                  bottom: 0;
+                  width: 50%;
+                  height: 14%;
+                  background: red;
+                  opacity: 1;}
+    
+    #red-rect-big {
+               position: absolute;
+               background: yellow;
+               left: 50%;
+               width: 50%;
+               height: 13%;
+}
+    
+    #yellow-circle {opacity: 0;}
+    
+    img {opacity: 0;}
+
+    
+    .red-1 { top: 0%; }
+    .red-2 { top: 72%}
+    .red {top: 46%;}
+    
+    .hidden-1 {top: 85%}
+    
+    
+    #blue-rect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  background: blue;
+  z-index: -10;
+}
+    
+    #blue-rect-2 {
+            position: absolute;
+            background: cyan; }
+    
+    .blue-1 {
+  top: 0;
+  left: 40%;
+  width: 7%;
+  height: 46%;}
+  
+ .blue-2 {
+  top: 39%;
+  left: 0%;
+  width: 40%;
+  height: 7%;}
+  
+  .blue-3 {
+  top: 50%;
+  left: 40%;
+  width: 7%;
+  height: 49%;}
+  
+  .blue-4 {
+  top: 50%;
+  left: 0%;
+  width: 40%;
+  height: 7%;}
+    
+  .white {top: 33%;}
+
+  .white-2 {top: 59%;}
+    
+
+}
